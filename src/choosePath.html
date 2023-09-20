@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/styles/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arsenal&family=Imbue:opsz,wght@10..100,200&family=Libre+Baskerville:wght@700&family=Mukta&family=Permanent+Marker&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tailwind Starter</title>
+  </head>
+  <body class="bg-gray-900">
+    <div class="flex flex-col text-center mt-12 gap-10 mx-6">
+      <h1 class="text-8xl text-[#7e88d1]">Choose Your Own Adventure</h1>
+      <h2 class="font-arsenal mx-5 text-4xl text-white font-light">
+        Could you imagine something for your future that is not dependent on the
+        information you know of your past?
+      </h2>
+      <div
+        class="flex flex-row justify-evenly [&_img]:max-h-96 [&_img:hover]:shadow-white [&_img:hover]:shadow-2xl [&_h3]:text-2xl [&_h3]:text-white"
+      >
+        <div class="grid grid-cols-1 justify-items-center gap-y-5">
+          <h3 class="font-extralight">Choose to not to know your past</h3>
+          <button onclick="window.location.href='finalDestination.html'">
+            <img src="/img/card2.png" alt="tarot card 1" />
+          </button>
+        </div>
+        <div class="grid grid-cols-1 justify-items-center gap-y-5">
+          <h3 class="font-extralight">Choose to know your past</h3>
+          <button onclick="window.location.href='graduation.html'">
+            <img src="/img/card1.png" alt="tarot card 2" />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

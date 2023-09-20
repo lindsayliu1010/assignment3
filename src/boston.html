@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/styles/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arsenal&family=Cedarville+Cursive&family=Fira+Code:wght@300&family=Imbue:opsz,wght@10..100,200&family=Libre+Baskerville:wght@700&family=Mukta&family=Permanent+Marker&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tailwind Starter</title>
+  </head>
+  <body class="bg-[#008348] mx-4">
+    <div class="flex flex-row justify-between items-center py-8">
+      <button onclick="window.location.href='choosePath.html'">
+        <img
+          class="max-h-10 hover:max-h-12 object-contain"
+          src="/img/icons8-back-50.png"
+          alt="back arrow"
+        />
+      </button>
+      <div class="flex flex-col text-center items-center gap-10 mx-6 text-8xl">
+        <div>
+          <h1 class="font-libre">Middle Stop:</h1>
+          <h1 class="font-imbue text-pink-500">Big City</h1>
+          <h1 class="font-code text-blue-500 drop-shadow-lg">Big Tech</h1>
+          <h1 class="font-cursive text-red-400">in Boston</h1>
+        </div>
+        <img src="/img/backBat.png" alt="back bay, boston" />
+        <audio controls autoplay>
+          <source src="/img/I'm Shipping Up To Boston.mp3" type="audio/ogg" />
+          Your browser does not support the audio element.
+        </audio>
+        <p class="bg-white p-3 text-2xl rounded-md bg-opacity-30 text-white">
+          I'm shipping up to Boston (whoa) <br />
+          I'm shipping up to Boston (whoa) <br />
+          I'm shipping up to Boston (whoa) <br />
+          I'm shipping off <br />
+          To find my wooden leg <br />
+          I'm a sailor peg <br />
+          And I lost my leg <br />
+          Climbing up the topsails <br />
+          I lost my leg!<br />
+        </p>
+      </div>
+      <button onclick="window.location.href='finalDestination.html'">
+        <img
+          class="max-h-10 hover:max-h-12 object-contain"
+          src="/img/icons8-forward-50.png"
+          alt="forward arrow"
+        />
+      </button>
+    </div>
+  </body>
+</html>
